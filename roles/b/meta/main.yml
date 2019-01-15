@@ -1,0 +1,5 @@
+dependencies:
+  - d
+  - name: c
+    extra_var: "{{ b_var }}"
+    when: "skip_extra is not defined"

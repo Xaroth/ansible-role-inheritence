@@ -1,0 +1,7 @@
+- name: C - test
+  debug:
+    msg: "{{ c_var }}"
+
+- name: C - extra
+  debug:
+    msg: "{{ extra_var }}"
